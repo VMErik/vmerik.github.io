@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mi Portafolio - Erik Uriel</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media-querys.css">
+    <link rel="stylesheet" href="./css/font/flaticon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Seccion de los NAVS con iconos sociales -->
+    <header>
+        <nav class="navigation">
+            <section class="navigation__img">
+                <img src="./assets/img/logo.png" alt="">
+            </section>
+            <section class="navigation__social">
+                <a href="https://github.com/VMErik" target="_blank"><i class="fa-brands fa-square-github"></i></span></a>
+                <a href="https://twitter.com/monroyaeu" target="_blank"><i class="fa-brands fa-square-twitter"></i></span></a>
+                <a href="https://www.linkedin.com/in/erik-uriel-monroy-angeles" target="_blank"><i class="fa-brands fa-linkedin"></i></span></a>
+                <!-- <a href=""><i class="fa-brands fa-square-youtube"></i></span></a> -->
+            </section>
+        </nav>
+    </header>
+    <!-- Seccion del contenido principal -->
+    <main>
+        <!-- BIOGRAFIA -->
+        <section class="main">
+            <div class="main__about">
+                <div class="main__about__img">
+                    <img src="./assets/img/developer.png" alt="">
+                </div>
+                <div class="main__about__me">
+                    <h2 class="main__about__me--name">HOLA SOY ERIK! <span>🖐</span> </h2>
+                    <p class="main__about__me--description">
+                        Soy desarrollador Full Stack, especializado principalmente en el uso de <span> MERN</span>.
+                    </p>
+                    <p class="main__about__me--description">
+                        A lo largo de mi carrera he desarrollado proyectos web, moviles y de escritorio.
+
+                        <br> Soy maestro en la plataforma de <a href="https://n9.cl/superproferik" target="_blank">SUPERPROF</a> y <a href="https://n9.cl/tusclaseserik" target="_blank">TUS CLASES</a>, en donde he impartido clases principalmente de bases
+                        de datos, backend tecnologias frontend.
+                        <br>
+                        <br> He contribuido de forma independiente en el desarrollo de proyectos para Startups en Londres y Colombia.
+                        <br>
+                        <br> En mis redes sociales comparto contenido que de ayudaran a mejorar tus aptitudes como programador.
+                    </p>
+                    <a class="main__about__me--learnwithme" href="#contact">
+                        ¡ Contactame y sigueme en redes sociales !
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- ************** -->
+
+        <!-- HABILIDADES -->
+        <section class="section_container">
+            <h2 class="section__container--header">HABILIDADES</h2>
+            <div class="skills">
+                <div class="skills__item">
+                    <img src="assets/skills/mongodb-icon.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/express.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/react.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/nodejs-icon.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/html.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/css.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/logo-javascript.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/angular-icon.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/flutter.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/csharp.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/dotnet.svg" alt="">
+                </div>
+                <div class="skills__item">
+                    <img src="assets/skills/docker.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- ************** -->
+
+        <!-- PROYECTOS -->
+        <section class="section_container--projects">
+            <h2 class="section__container--header">PROYECTOS</h2>
+            <div class="tab">
+                <button class="tablinks" onclick="openProjects(event, 'components')" id="defaultOpen">Componentes</button>
+                <button class="tablinks" onclick="openProjects(event, 'clons')">Clones</button>
+                <button class="tablinks" onclick="openProjects(event, 'developments')">Desarrollos</button>
+            </div>
+
+            <div id="components" class="projects">
+                <div class="projects__item">
+                    <img src="assets/proj/components/fem-product-preview-component.PNG" alt="">
+                    <h4>Tarjeta de Producto </h4>
+                    <p>Tarjeta de producto con imagen e información general para tienda online</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/FEM-Product-Preview-Card" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="https://fem-product-preview-card-henna.vercel.app/" target="_blank">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/components/fem-qr-component.PNG" alt="">
+                    <h4>Tarjeta QR</h4>
+                    <p>Tarjeta con codigo QR personalizado</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/FEM-QR-Component-Main" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="https://fem-qr-component-main.vercel.app/" target="_blank">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/components/fem-pre-card-component.png" alt="">
+                    <h4>Landing Page</h4>
+                    <p>Propuesta de Landing page responsiva con estadisticas para un sitio web</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a target="_blank" href="https://github.com/VMErik/FEM-Stats-Preview-Card-Component" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a target="_blank" href="https://fem-stats-preview-card-component-green.vercel.app/">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/components/fem-raiting-component.png" alt="">
+                    <h4>Evaluacion Servicio</h4>
+                    <p>Componente para evaluar un servicio</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a target="_blank" href="https://github.com/VMErik/FEM-Interactive-Raiting-Component" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a target="_blank" href="https://fem-interactive-raiting-component.vercel.app/">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/components/fem-summary-component.PNG" alt="">
+                    <h4>Estado de resultados</h4>
+                    <p>Propuesta de tarjeta para visualizar resultados de una prueba</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a target="_blank" href="https://github.com/VMErik/FEM-Result-Summary" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a target="_blank" href="https://fem-result-summary-rho.vercel.app/">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/components/fem-landing-page-component.PNG" alt="">
+                    <h4>Landing Page</h4>
+                    <p>Landing page con iconos de redes sociales</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a target="_blank" href="https://github.com/VMErik/FEM-Landing-Page" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a target="_blank" href="https://fem-landing-page.vercel.app/">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/components/fem-nft-component.PNG" alt="">
+                    <h4>Tarjeta NFT</h4>
+                    <p>Tarjeta de NFT donde se visualiza informacion general</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/FEM-NFT-Preview" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="https://fem-nft-preview.vercel.app/" target="_blank">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="clons" class="projects">
+                <div class="projects__item">
+                    <img src="assets/proj/practice/airbnb.PNG" alt="">
+                    <h4>AIRBNB CLON</h4>
+                    <p>Maquetación web de la pagina principal de airbnb completamente responsiva</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/airbnb_clon" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/practice/netflix.PNG" alt="">
+                    <h4>NETFLIX CLON</h4>
+                    <p>Clon de la pagina principal de Netflix, completamente responsiva</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/netflix_clon" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/practice/Batata.PNG" alt="">
+                    <h4>BATATA BIT</h4>
+                    <p>Maquetación web de la pagina principal de un proyecto para visualizar tazas de cambio de criptomonedas</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/batatabit" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/practice/blog.PNG" alt="">
+                    <h4>BLOG</h4>
+                    <p>Propuesta inicial para un Blog de tecnología</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/tech_blog" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/practice/Login.PNG" alt="">
+                    <h4>LOGIN</h4>
+                    <p>Diseño de Login responsive para autenticacion de un sitio</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/bootstrap-login" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/practice/Spotify.PNG" alt="">
+                    <h4>SPOTIFY CLON</h4>
+                    <p>Clon de la pagina principal de Spotify, completamente responsiva</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/spotify_clon" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/practice/online-store.PNG" alt="">
+                    <h4>TIENDA EN LINEA</h4>
+                    <p>Propuesta inicial para tienda online. Incluye pagina de inicio y pagina de detalle del producto </p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a href="https://github.com/VMErik/bootstrap-simple-store" target="_blank">
+                            <i class="fa-brands fa-github"></i> Ver codigo
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="developments" class="projects">
+                <div class="projects__item">
+                    <img src="assets/proj/developments/scecle-store.png" alt="">
+                    <h4>Scecle Store</h4>
+                    <p>Tienda en linea para empresa de osteosintesis</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-shopify"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a target="_blank" href="https://sceclestore.com/">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+                <div class="projects__item">
+                    <img src="assets/proj/developments/certeza-tributaria.png" alt="">
+                    <h4>Certeza Tributaria</h4>
+                    <p>Pagina web para despacho contable</p>
+                    <div class="projects__item__tecnologies">
+                        <i class="fa-brands fa-wordpress"></i>
+                    </div>
+                    <div class="projects__item__views">
+                        <a target="_blank" href="https://certezatributaria.mx/">
+                            <i class="fa-solid fa-earth-americas"></i> Ver sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ************** -->
+    </main>
+
+    <!-- Seccion del pie de pagina -->
+    <footer id="contact">
+        <div class="contact_social">
+            <div class="message">
+                <H4> ¿ Quieres contactar conmigo ? </H4>
+                <p> Buscame en mis redes sociales... </p>
+
+                <div class="message_social_container">
+                    <div class="message_social_container--item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a target="_blank" href="https://www.linkedin.com/in/erik-uriel-monroy-angeles">LinkedIn</a>
+                    </div>
+                    <div class="message_social_container--item">
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <a target="_blank" href="https://twitter.com/monroyaeu">Twitter</a>
+                    </div>
+                    <div class="message_social_container--item">
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <a target="_blank" href="https://www.instagram.com/vm_acid/">Instagram</a>
+                    </div>
+                    <div class="message_social_container--item">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <a target="_blank" href="https://es-la.facebook.com/monroy.aeu">Facebook</a>
+                    </div>
+                    <div class="message_social_container--item">
+                        <i class="fa-brands fa-square-github"></i>
+                        <a target="_blank" href="https://github.com/VMErik">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="learning">
+                <H4> ¡ Toma clases conmigo ! </H4>
+                <p> Encuentrame en </p>
+
+                <div class="learning_social_container">
+                    <div class="learning_social_container--item">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <a target="_blank" href="https://www.superprof.mx/ingeniero-tecnologias-informacion-comunicacion-con-mas-anos-experiencia-desarrollo-web-win-aplicaciones-moviles.html">Superprof</a>
+                    </div>
+                    <div class="learning_social_container--item">
+                        <i class="fa-solid fa-book"></i>
+                        <a target="_blank" href="https://www.tusclases.mx/profesores/programacion-online/aprende-programar-forma-sencilla-eficiente-refuerza-tus-conocimientos-mediante-practica-conjunto-1181113">TusClases.MX</a>
+                    </div>
+                </div>
+            </div>
+            <div class="learning">
+                <H4> Trabajemos juntos </H4>
+                <p> Contratame en </p>
+
+                <div class="learning_social_container">
+                    <div class="learning_social_container--item">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <a target="_blank" href="https://www.freelancer.mx/u/ErikMonroy16?frm=ErikMonroy16&sb=t">Freelancer</a>
+                    </div>
+                    <div class="learning_social_container--item">
+                        <i class="fa-solid fa-sheet-plastic"></i>
+                        <a target="_blank" href="https://www.workana.com/e/6e69f0c3b57081b6b4c93826ed172a3a">Workana</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact_credits">
+            <p>Realizado por Erik Monroy @ 2023</p>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
